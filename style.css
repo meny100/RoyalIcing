@@ -449,6 +449,9 @@ section {
   #gallery {
     display: none;
   }
+  #scnd-img {
+    display: none;
+  }
   .contact-title {
     font-size: small;
   }
@@ -495,6 +498,9 @@ section {
     display: none;
   }
   #gallery {
+    display: none;
+  }
+  #scnd-img {
     display: none;
   }
 
