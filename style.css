@@ -443,12 +443,14 @@ section {
     width: 90%;
     padding-bottom: 50.625%; /* יחס 16:9 ל־90% רוחב */
   }
-  .gallery-section,
+  .gallery-section {
+    display: none;
+  }
   #gallery {
     display: none;
   }
   .contact-title {
-    font-size: 0.6em;
+    font-size: small;
   }
 }
 
@@ -481,7 +483,7 @@ section {
   }
 
   .contact-title {
-    font-size: 0.6em;
+    font-size: small;
   }
 
   .contact-items {
@@ -489,7 +491,9 @@ section {
     gap: 1rem;
   }
 
-  .gallery-section,
+  .gallery-section {
+    display: none;
+  }
   #gallery {
     display: none;
   }
