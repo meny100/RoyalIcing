@@ -443,6 +443,12 @@ section {
     width: 90%;
     padding-bottom: 50.625%; /* יחס 16:9 ל־90% רוחב */
   }
+  .gallery-section {
+    display: none;
+  }
+  .contact-title {
+    font-size: smaller;
+  }
 }
 
 @media (max-width: 600px) {
@@ -459,6 +465,10 @@ section {
     font-size: 1em;
   }
 
+  .video-small {
+    width: 90%;
+    padding-bottom: 50.625%; /* יחס 16:9 ל־90% רוחב */
+  }
   iframe {
     width: 100% !important;
     height: auto !important;
@@ -469,8 +479,8 @@ section {
     height: auto;
   }
 
-  .gallery-container img {
-    height: 160px;
+  .contact-title {
+    font-size: smaller;
   }
 
   .contact-items {
@@ -478,12 +488,8 @@ section {
     gap: 1rem;
   }
 
-  .gallery-wrapper {
-    max-width: 95%;
-  }
-
-  .gallery-container img {
-    height: 140px;
+  .gallery-section {
+    display: none;
   }
 
   .logo-text {
