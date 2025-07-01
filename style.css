@@ -1,0 +1,358 @@
+﻿body {
+  font-family: "Varela Round", sans-serif;
+  direction: rtl;
+  margin: 0;
+  background-color: #f5effa;
+  scroll-behavior: smooth;
+  color: #333;
+}
+nav {
+  background-color: #e4e0eb;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logo-text {
+  font-family: "Brush Script MT", cursive;
+  font-size: 1.8em;
+  font-weight: 500;
+  color: #444;
+}
+.logo img {
+  width: 32px;
+  height: 32px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bolder;
+}
+header {
+  background-color: #f0ebf7;
+  text-align: center;
+  align-content: center;
+  padding: 2rem 2rem;
+}
+header.container {
+  background-image: url("imgs/heart.jpg");
+  background-size: cover; /* כדי שהתמונה תכסה את כל הרקע */
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem; /* מרווח פנימי לטקסט */
+  height: 85vh;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 1.5rem;
+}
+header p {
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+section {
+  padding: 8vh 2vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.section-kaytanot {
+  background-color: #f5effa;
+}
+.section-schools {
+  background-color: #ebe8f3;
+}
+.section-batmitzva {
+  background-color: #f5effa;
+}
+.section-hanukkah {
+  background-color: #ebe8f3;
+}
+.section-contact {
+  background-color: #e4e0eb;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.section-content {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.section-content img {
+  width: 300px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.section-batmitzva .gallery-12 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 20px;
+}
+.section-content img:hover {
+  transform: rotate(2deg) scale(1.08);
+}
+.section-content:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.section-content:nth-child(3) {
+  flex-direction: column-reverse;
+}
+.section-content img {
+  width: 300px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s ease;
+  transform: rotate(-2deg);
+}
+.section-content img:hover {
+  transform: rotate(0deg) scale(1.08) translateY(-8px);
+}
+.section-text {
+  max-width: 500px;
+  font-size: 1.2em;
+  line-height: 2;
+}
+.section-contact {
+  background: linear-gradient(to right, #fff0f5, #ffe4e1);
+  padding: 20px;
+  text-align: center;
+}
+
+.section-contact h2 {
+  font-size: 1.7em;
+  color: #b05e5e;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.contact-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.contact-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.cookie-icon {
+  width: 36px;
+  height: 36px;
+}
+
+.contact-icon {
+  margin-left: 8px;
+  color: #6b4f4f;
+  font-size: 1.2em;
+}
+
+.contact-link {
+  color: #5c3d2e;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #a0522d;
+}
+
+.contact-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 50px;
+  left: 70px;
+  background-color: #f9c8c8;
+  color: #5c3d2e;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+}
+
+#backToTop:hover {
+  background-color: #f5a6a6;
+  transform: scale(1.1);
+}
+
+.gallery-wrapper {
+  align-content: center;
+  position: relative;
+  max-width: 68%;
+  margin: 0 auto;
+  overflow: hidden;
+  direction: ltr; /* חשוב לגלילה משמאל לימין */
+}
+.gallery-section p {
+  direction: rtl;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #5c3d2e;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.gallery-container {
+  margin: 30px auto;
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+  scroll-snap-type: x mandatory;
+}
+
+.gallery-container {
+  overflow-x: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.gallery-container::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.gallery-container img {
+  height: 240px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.05);
+}
+
+.arrow {
+  position: absolute;
+  top: 40%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  z-index: 10;
+  padding: 5px 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.arrow:hover {
+  background-color: #f0c8c8;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+/* רקע שחור חצי שקוף */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* התמונה המוגדלת */
+.lightbox img {
+  width: 60%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #000;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* כפתור סגירה */
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+}
+
+/* אפקט מעבר */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .section-content {
+    flex-direction: column;
+  }
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
