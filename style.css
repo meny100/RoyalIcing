@@ -443,17 +443,13 @@ section {
     width: 90%;
     padding-bottom: 50.625%; /* יחס 16:9 ל־90% רוחב */
   }
-  .gallery-section {
-    display: none;
-  }
-  #gallery {
-    display: none;
-  }
+  .gallery-section,
+  #gallery,
   #scnd-img {
     display: none;
   }
   .contact-title {
-    font-size: small;
+    font-size: 20px;
   }
 }
 
@@ -486,7 +482,7 @@ section {
   }
 
   .contact-title {
-    font-size: small;
+    font-size: 20px;
   }
 
   .contact-items {
@@ -494,17 +490,17 @@ section {
     gap: 1rem;
   }
 
-  .gallery-section {
-    display: none;
-  }
-  #gallery {
-    display: none;
-  }
+  .gallery-section,
+  #gallery,
   #scnd-img {
     display: none;
   }
 
   .logo-text {
     font-size: 1.2em;
+  }
+  #backToTop {
+    bottom: 45px;
+    left: 35px;
   }
 }
