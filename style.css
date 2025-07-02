@@ -442,7 +442,7 @@ section {
   }
   .video-small {
     width: 90%;
-    /* padding-bottom: 50.625%; יחס 16:9 ל־90% רוחב */
+    padding-bottom: 50.625%; /* יחס 16:9 */
   }
   .gallery-section,
   #gallery-btn,
@@ -474,7 +474,7 @@ section {
 
   .video-small {
     width: 90%;
-    /* padding-bottom: 50.625%; יחס 16:9 ל־90% רוחב */
+    padding-bottom: 50.625%; /* יחס 16:9 */
   }
   iframe {
     width: 100% !important;
