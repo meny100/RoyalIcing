@@ -449,9 +449,6 @@ section {
   #scnd-img {
     display: none;
   }
-  .contact-title {
-    font-size: 14px;
-  }
 }
 
 @media (max-width: 600px) {
@@ -480,10 +477,6 @@ section {
   .section-content img {
     width: 90%;
     height: auto;
-  }
-
-  .contact-title {
-    font-size: 14px;
   }
 
   .contact-items {
