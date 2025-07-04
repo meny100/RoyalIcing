@@ -440,6 +440,9 @@ section {
     flex-direction: column;
     gap: 1rem;
   }
+  .section-schools .section-content {
+    flex-direction: column-reverse;
+  }
   .video-small {
     width: 90%;
     padding-bottom: 50.625%; /* יחס 16:9 */
@@ -470,6 +473,10 @@ section {
 
   header p {
     font-size: 1em;
+  }
+
+  .section-schools .section-content {
+    flex-direction: column-reverse;
   }
 
   .video-small {
