@@ -54,37 +54,42 @@ header {
   padding: 2rem 2rem;
 }
 header.container {
-  background-image: url("imgs/heart.jpg");
-  background-size: cover; /* כדי שהתמונה תכסה את כל הרקע */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("imgs/heart.jpg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 2rem; /* מרווח פנימי לטקסט */
+  padding: 2rem;
   height: 85vh;
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 2.3em;
   margin-bottom: 1.5rem;
+  color: rgb(226, 224, 224); /*שהטקסט יהיה ברור יותר */
 }
 header p {
   font-family: "Miriam Libre", sans-serif;
-  font-size: 1.5em;
-  font-weight: 600;
+  font-size: 1.8em;
+  font-weight: bolder;
+  font-style: italic;
   max-width: 800px;
   margin: auto;
   line-height: 1.5;
   margin-bottom: 20px;
+  color: rgb(46, 59, 70); /*שהטקסט יהיה ברור יותר */
 }
 
 .video-small {
   position: relative;
-  width: 30%;
-  padding-bottom: 16.875%; /* יחס 16:9 ל־30% רוחב */
+  width: 35%;
+  padding-bottom: 19.6875%; /* יחס 16:9 */
   margin: 50px auto; /* ממורכז עם רווח */
   height: 0;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(216, 140, 162, 0.7);
+  box-shadow: 0 4px 12px rgba(216, 140, 162, 1);
 }
 
 .video-small iframe {
