@@ -15,6 +15,9 @@ window.addEventListener("scroll", () => {
 });
 
 const images = [
+  "imgs/kids-workshop.jpg",
+  "imgs/hanukkah-cookies.jpg",
+  "imgs/cookies-workshop.jpg",
   "imgs/רויאל סדנאות קיץ.jpg",
   "imgs/twelve.JPG",
   "imgs/clowns2.JPG",
@@ -26,6 +29,7 @@ const images = [
   "imgs/birthday.JPG",
   "imgs/prepare4.JPG",
   "imgs/clowns.JPG",
+  "imgs/cookies-workshop.jpg",
   "imgs/fox.jpg",
   "imgs/heart.jpg",
   "imgs/prepare2.JPG",

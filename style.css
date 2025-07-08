@@ -485,8 +485,10 @@ section {
   }
 
   .video-small {
-    width: 90%;
-    padding-bottom: 50.625%; /* יחס 16:9 */
+    width: 50%;
+    padding-bottom: 28.125%; /* יחס 16:9 */
+    border: none;
+    box-shadow: none;
   }
   iframe {
     width: 100% !important;
