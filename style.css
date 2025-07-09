@@ -488,12 +488,12 @@ section {
     width: 90%;
     padding-bottom: 50.625%; /* יחס 16:9 */
     border: none;
-    border-radius: 10px;
     box-shadow: none;
   }
   iframe {
     width: 100% !important;
     height: auto !important;
+    border-radius: 10px;
   }
 
   .section-content img {
